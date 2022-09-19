@@ -1,3 +1,86 @@
+
 body {
+    background-color: #252D37;
+}
+
+main {
     font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #7C8798;
+
+}
+
+section {
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 1px solid #1C1E21;
+	border-radius: 30px;
+}
+
+.estrela {
+    width: 90%;
+	padding: 5px 0;
+    border: none;
+	border-color:  #959EAC;
+	border-radius: 100px;
+}
+
+.titulo {
+	font-size: 16px;
+	font-weight: bold;
+    color: #ffffff;
+}
+
+.subtitulo {
+	font-size: 8px;
+    color: #FFFFFF;
+}
+
+.pontuacao {
+    background: #959EAC;
+	border-radius: 100px;
+    color: white;
+    transition: 1s all;
+	cursor: pointer;
+}
+
+.pontuacao:hover {
+    background: #FFFFFF;
+    color: #FB7718;
+    transform: scale(1);
+
+}
+.enviar {
+	width: 90%;
+	padding: 5px 0;
+	background: #FB7718;
+	color: white;
+	font-weight:bold;
+	font-size: 10px;
+	border: none;
+	border-radius: 50px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #FFFFFF;
+    color: #FB7718;
+	transform: scale(1);
+}
+
+.extra {
+    font-size: 8px;
+    color: #FFFFFF;
+}
+
+.attribution {
+    font-size: 8px;
+    color: #FFFFFF;
 }
