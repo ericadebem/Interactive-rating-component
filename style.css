@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Overpass', sans-serif;
+    letter-spacing: 0.5px;
     background-color:  hsl(216, 12%, 8%);
 }
 
@@ -13,15 +14,14 @@ main {
     display: flex;
     justify-content: center;
     min-width: 375px;
+    min-height: 375px;
 }
 section {
-    position: absolute;
     width: 90%;
-    height: auto;
     margin: 0 auto;
-    margin-top: 50%;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
     background-color:  hsl(213, 19%, 18%);
-    height: auto;
     width: 340px;
 	padding: 30px;
 	border-radius: 30px;
@@ -44,17 +44,21 @@ p, a {
     color: hsl(217, 12%, 63%);
 }
 
+p {
+    margin-top: 15px;
+}
+
 ul {
     height: 20px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
     margin: 15px auto;
 }
 
-ul li {
+ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,4 +66,48 @@ ul li {
     width: 39px;
     height: 39px;
     border-radius: 50%;
+    text-decoration: none;
+}
+ 
+ul li a:hover {
+	background: hsl(217, 12%, 63%);
+    color: #ffffff;
+}
+
+ul li a:active {
+	background: hsl(25, 97%, 53%);
+    color: #ffffff;
+}
+
+ul li a:focus {
+	background: hsl(25, 97%, 53%);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.enviar p {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FB7718;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 50px;
+	transition: 0.3s all;
+	cursor: pointer;
+}
+
+.enviar p:active {
+	background: #FFFFFF;
+    color: #FB7718;
+}
+
+footer {
+    color: #FFFFFF;
+    text-align: center;
 }

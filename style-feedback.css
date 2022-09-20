@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 0.7px;
+    background-color:  hsl(216, 12%, 8%);
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    min-width: 375px;
+    min-height: 375px;
+}
+section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    background-color:  hsl(213, 19%, 18%);
+    width: 340px;
+	padding: 30px;
+	border-radius: 30px;
+    color: #FFFFFF;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width:  150px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px 50px;
+}
+
+.subtitulo {
+    color: #FB7718;;
+    font-size: 12px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 22%);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+p {
+	font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: hsl(217, 12%, 63%);
+    margin-top: 10px;
+}
+
+footer {
+    color: #FFFFFF;
+    text-align: center;
+}
