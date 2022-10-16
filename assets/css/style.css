@@ -111,3 +111,24 @@ footer {
     color: #FFFFFF;
     text-align: center;
 }
+
+/* feedback buttons */
+.buttons {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color:  hsl(213, 19%, 22%);
+  color: hsl(217, 12%, 63%);
+}
+
+.buttons:hover {
+  background: hsl(217, 12%, 63%);
+  color: #ffffff;
+}
+
+.button-selected {
+  background-color: hsl(25, 97%, 53%);
+  color: #ffffff;
+}
