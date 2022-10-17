@@ -6,7 +6,6 @@
   --dark-blue-variation: hsl(213, 19%, 22%);
   --very-dark-blue: hsl(216, 12%, 8%);
   --orange: hsl(25, 97%, 53%);
-
 }
 
 * {
@@ -61,7 +60,7 @@ p {
   margin-top: 15px;
 }
 
-ul {
+.pontuacao {
   height: 20px;
   list-style: none;
   display: flex;
@@ -71,7 +70,7 @@ ul {
   margin: 15px auto;
 }
 
-ul li a {
+/* ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,23 +79,23 @@ ul li a {
   height: 39px;
   border-radius: 50%;
   text-decoration: none;
-}
+} */
 
-ul li a:hover {
+/* ul li a:hover {
   background: var(--light-grey);
   color: var(--white);
-}
+} */
 
-ul li a:active {
+/* ul li a:active {
   background: var(--orange);
   color: var(--white);
-}
+} */
 
-ul li a:focus {
+/* ul li a:focus {
   background: var(--orange);
   color: var(--white);
   text-decoration: none;
-}
+} */
 
 .enviar p {
   color: var(--white);
@@ -144,4 +143,8 @@ footer {
 .button-selected {
   background-color: var(--orange);
   color: var(--white);
+}
+
+.display-none {
+  display: none;
 }

@@ -1,10 +1,5 @@
-//button submit
-const submit = document.getElementById('submit')
-//console.log(submit)
-
-//Here I am taking the feedback buttons by class
 const feedbackButtons = document.querySelectorAll('.buttons')
-
+console.log(feedbackButtons)
 //This is my control variable
 let clickedFeedbackButton
 
@@ -13,7 +8,8 @@ let clickedFeedbackButton
 The querySelectorAll() returns a NodeList, I can show you more about it later! =)
 */
 feedbackButtons.forEach(feedbackButton => {
-  
+  console.log(feedbackButton)
+
   //click event, maybe we should rename some names and elements here, to make it easier to understand
   feedbackButton.addEventListener('click', () => {
     clickedFeedbackButton = feedbackButton.id
@@ -29,3 +25,7 @@ feedbackButtons.forEach(feedbackButton => {
 
   })
 })
+
+const submit = document.getElementById('submit')
+
+submit.addEventListener('click', )
