@@ -27,5 +27,17 @@ feedbackButtons.forEach(feedbackButton => {
 })
 
 const submit = document.getElementById('submit')
+const feedback = document.getElementById("feedback") //remover class display-none
+const askFeedback = document.getElementById("askFeedback") // add class display-none
+const subtitulo = document.querySelector(".subtitulo") 
+  console.log(subtitulo)
 
-submit.addEventListener('click', )
+submit.addEventListener('click',() => {
+  askFeedback.classList.add('display-none')
+  feedback.classList.remove('display-none')
+  subtitulo.innerHTML = (`You selected ${clickedFeedbackButton} out of 5`)
+
+})
+
+
+
