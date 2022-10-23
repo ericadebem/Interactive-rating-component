@@ -70,33 +70,6 @@ p {
   margin: 15px auto;
 }
 
-/* ul li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--dark-blue-variation);
-  width: 39px;
-  height: 39px;
-  border-radius: 50%;
-  text-decoration: none;
-} */
-
-/* ul li a:hover {
-  background: var(--light-grey);
-  color: var(--white);
-} */
-
-/* ul li a:active {
-  background: var(--orange);
-  color: var(--white);
-} */
-
-/* ul li a:focus {
-  background: var(--orange);
-  color: var(--white);
-  text-decoration: none;
-} */
-
 .enviar p {
   color: var(--white);
   font-size: 12px;
