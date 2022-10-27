@@ -40,12 +40,13 @@ section {
   color: var(--white);
 }
 
-img {
+.star {
   background-color: var(--dark-blue-variation);
   padding: 12px;
   border-radius: 50%;
   margin-bottom: 18px;
 }
+
 
 h1 {
   margin-top: 0;
@@ -61,6 +62,11 @@ p {
   margin-top: 15px;
 }
 
+.subtitulo {
+  color: var(--orange);
+}
+
+
 .pontuacao {
   height: 20px;
   list-style: none;
@@ -71,7 +77,7 @@ p {
   margin: 15px auto;
 }
 
-.enviar p {
+.submit {
   color: var(--white);
   font-size: 12px;
   padding: 10px;
@@ -86,9 +92,10 @@ p {
   border-radius: 50px;
   transition: 0.3s all;
   cursor: pointer;
+  border: none;
 }
 
-.enviar p:active {
+.submit:active {
   background: var(--white);
   color: var(--orange);
 }
