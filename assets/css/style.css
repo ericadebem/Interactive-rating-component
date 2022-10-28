@@ -27,29 +27,15 @@ main {
   min-width: 375px;
   min-height: 375px;
 }
-header {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-#back {
-  position: absolute;
-  background-color: var(--dark-blue);
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
-  border: none;
-  margin-top: 50px;
-}
-#back:hover {
-  background-color: var(--light-grey);
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: all 1s;
-}
 
 section {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
   width: 90%;
   height: 360px;
   margin-top: 25vh;
@@ -87,9 +73,7 @@ p {
 }
 
 .thankyou-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .subtitle {
@@ -132,6 +116,28 @@ p {
 .submit:active {
   background: var(--white);
   color: var(--orange);
+}
+
+.button-back {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#back {
+  position: absolute;
+  bottom: 60px;
+  background-color: var(--dark-blue);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+#back:hover {
+  background-color: var(--light-grey);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s;
 }
 
 footer {
