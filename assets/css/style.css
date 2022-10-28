@@ -32,7 +32,7 @@ header {
   text-align: center;
 }
 
-.back {
+#back {
   background-color: var(--dark-blue);
   border-radius: 50px;
   width: 50px;
@@ -40,11 +40,11 @@ header {
   border: none;
   margin-top: 50px;
 }
-.back:hover {
+#back:hover {
   background-color: var(--light-grey);
   cursor: pointer;
   transform: scale(1.1);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 section {

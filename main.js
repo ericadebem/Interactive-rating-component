@@ -30,14 +30,16 @@ const submit = document.getElementById('submit')
 const rating = document.getElementById("rating") //remover class display-none
 const askFeedback = document.getElementById("askFeedback") // add class display-none
 const subtitle = document.querySelector(".subtitle") 
+const back = document.getElementById('back')
   console.log(subtitle)
 
 submit.addEventListener('click',() => {
   askFeedback.classList.add('display-none')
   rating.classList.remove('display-none')
+  back.classList.remove('display-none')
   subtitle.innerHTML = (`You selected ${clickedFeedbackButton} out of 5`)
-
 })
 
-
-
+back.addEventListener('click',() => {
+  button.classList.remove('button-selected')
+})
