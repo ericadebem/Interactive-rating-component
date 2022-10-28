@@ -21,8 +21,9 @@ body {
 }
 
 main {
+  flex-direction: column;
   display: flex;
-  justify-content: center;
+  align-items: center;
   min-width: 375px;
   min-height: 375px;
 }
@@ -33,6 +34,7 @@ header {
 }
 
 #back {
+  position: absolute;
   background-color: var(--dark-blue);
   border-radius: 50px;
   width: 50px;
@@ -50,7 +52,6 @@ header {
 section {
   width: 90%;
   height: 360px;
- 
   margin-top: 25vh;
   margin-bottom: 25vh;
   background-color: var(--dark-blue);

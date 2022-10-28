@@ -41,5 +41,5 @@ submit.addEventListener('click',() => {
 })
 
 back.addEventListener('click',() => {
-  button.classList.remove('button-selected')
+  location. reload();
 })
