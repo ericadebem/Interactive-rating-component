@@ -71,7 +71,7 @@ p {
   align-items: center;
 }
 
-.subtitulo {
+.subtitle {
   text-align: center;
   color: var(--orange);
   background-color: var(--dark-blue-variation);
@@ -80,7 +80,7 @@ p {
   border-radius: 50px;
 }
 
-.pontuacao {
+.score {
   height: 20px;
   list-style: none;
   display: flex;
